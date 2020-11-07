@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,16 @@
 		0B26D8AC2556C4950004F77B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B26D8AA2556C4950004F77B /* LaunchScreen.storyboard */; };
 		0B26D8B72556C4960004F77B /* CoronavoiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26D8B62556C4960004F77B /* CoronavoiderTests.swift */; };
 		0B26D8C22556C4960004F77B /* CoronavoiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26D8C12556C4960004F77B /* CoronavoiderUITests.swift */; };
+		0B26D8DB2556D95B0004F77B /* GenerateDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26D8DA2556D95B0004F77B /* GenerateDeclaration.swift */; };
+		0B26D8E12556DC920004F77B /* TPPDF in Frameworks */ = {isa = PBXBuildFile; productRef = 0B26D8E02556DC920004F77B /* TPPDF */; };
+		0B26D8E62556E0180004F77B /* Duty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26D8E52556E0180004F77B /* Duty.swift */; };
+		0B26D92C2556F1910004F77B /* Declaratie.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B26D92B2556F1910004F77B /* Declaratie.pdf */; };
+		0BDDE06625570F790017449E /* ms.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BDDE06525570F780017449E /* ms.png */; };
+		0BDDE06E255713910017449E /* NoIdea.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BDDE06D255713910017449E /* NoIdea.png */; };
+		0BDDE073255713980017449E /* YesIdea.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BDDE072255713980017449E /* YesIdea.png */; };
+		671879C2E073D39D03FAD251 /* Pods_CoronavoiderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE12FCFF9AC26FA74B776D0 /* Pods_CoronavoiderTests.framework */; };
+		7B994F9466A7A8B060D2214E /* Pods_Coronavoider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515FC0B3E25D91E6FC6D3687 /* Pods_Coronavoider.framework */; };
+		A67CBE106C4713A93515568D /* Pods_Coronavoider_CoronavoiderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05305BE9FBF93AA3B062617 /* Pods_Coronavoider_CoronavoiderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,21 @@
 		0B26D8BD2556C4960004F77B /* CoronavoiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoronavoiderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B26D8C12556C4960004F77B /* CoronavoiderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronavoiderUITests.swift; sourceTree = "<group>"; };
 		0B26D8C32556C4960004F77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B26D8DA2556D95B0004F77B /* GenerateDeclaration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateDeclaration.swift; sourceTree = "<group>"; };
+		0B26D8E52556E0180004F77B /* Duty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duty.swift; sourceTree = "<group>"; };
+		0B26D92B2556F1910004F77B /* Declaratie.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Declaratie.pdf; path = Coronavoider/PDFs/Declaratie.pdf; sourceTree = SOURCE_ROOT; };
+		0BDDE06525570F780017449E /* ms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ms.png; sourceTree = "<group>"; };
+		0BDDE06D255713910017449E /* NoIdea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoIdea.png; sourceTree = "<group>"; };
+		0BDDE072255713980017449E /* YesIdea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YesIdea.png; sourceTree = "<group>"; };
+		1B5FBB3D85006924E3663844 /* Pods-Coronavoider-CoronavoiderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coronavoider-CoronavoiderUITests.release.xcconfig"; path = "Target Support Files/Pods-Coronavoider-CoronavoiderUITests/Pods-Coronavoider-CoronavoiderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A58D1638D3F09B7677765CD /* Pods-Coronavoider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coronavoider.debug.xcconfig"; path = "Target Support Files/Pods-Coronavoider/Pods-Coronavoider.debug.xcconfig"; sourceTree = "<group>"; };
+		32BBAD1E63ACF2A44ECB0B93 /* Pods-CoronavoiderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronavoiderTests.release.xcconfig"; path = "Target Support Files/Pods-CoronavoiderTests/Pods-CoronavoiderTests.release.xcconfig"; sourceTree = "<group>"; };
+		515FC0B3E25D91E6FC6D3687 /* Pods_Coronavoider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coronavoider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B1C2F4E467C1E44CB0391F /* Pods-Coronavoider-CoronavoiderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coronavoider-CoronavoiderUITests.debug.xcconfig"; path = "Target Support Files/Pods-Coronavoider-CoronavoiderUITests/Pods-Coronavoider-CoronavoiderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3B9BF9B3D5F33ECDEFC718 /* Pods-CoronavoiderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronavoiderTests.debug.xcconfig"; path = "Target Support Files/Pods-CoronavoiderTests/Pods-CoronavoiderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CE12FCFF9AC26FA74B776D0 /* Pods_CoronavoiderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoronavoiderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3947DB06A3127D6CAC11FBF /* Pods-Coronavoider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coronavoider.release.xcconfig"; path = "Target Support Files/Pods-Coronavoider/Pods-Coronavoider.release.xcconfig"; sourceTree = "<group>"; };
+		E05305BE9FBF93AA3B062617 /* Pods_Coronavoider_CoronavoiderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coronavoider_CoronavoiderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B26D8E12556DC920004F77B /* TPPDF in Frameworks */,
+				7B994F9466A7A8B060D2214E /* Pods_Coronavoider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671879C2E073D39D03FAD251 /* Pods_CoronavoiderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67CBE106C4713A93515568D /* Pods_Coronavoider_CoronavoiderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +112,8 @@
 				0B26D8B52556C4960004F77B /* CoronavoiderTests */,
 				0B26D8C02556C4960004F77B /* CoronavoiderUITests */,
 				0B26D89D2556C4940004F77B /* Products */,
+				2BA224D6DEF3B54B459E23BA /* Pods */,
+				2CDC254969BA0C581E20B2EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +130,19 @@
 		0B26D89E2556C4940004F77B /* Coronavoider */ = {
 			isa = PBXGroup;
 			children = (
+				0BDDE06D255713910017449E /* NoIdea.png */,
+				0BDDE072255713980017449E /* YesIdea.png */,
+				0BDDE05B2556F8650017449E /* PDFs */,
 				0B26D89F2556C4940004F77B /* AppDelegate.swift */,
 				0B26D8A12556C4940004F77B /* SceneDelegate.swift */,
 				0B26D8A32556C4940004F77B /* ViewController.swift */,
 				0B26D8A52556C4940004F77B /* Main.storyboard */,
 				0B26D8A82556C4950004F77B /* Assets.xcassets */,
 				0B26D8AA2556C4950004F77B /* LaunchScreen.storyboard */,
+				0BDDE06525570F780017449E /* ms.png */,
 				0B26D8AD2556C4950004F77B /* Info.plist */,
+				0B26D8DA2556D95B0004F77B /* GenerateDeclaration.swift */,
+				0B26D8E52556E0180004F77B /* Duty.swift */,
 			);
 			path = Coronavoider;
 			sourceTree = "<group>";
@@ -128,6 +165,37 @@
 			path = CoronavoiderUITests;
 			sourceTree = "<group>";
 		};
+		0BDDE05B2556F8650017449E /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				0B26D92B2556F1910004F77B /* Declaratie.pdf */,
+			);
+			path = PDFs;
+			sourceTree = "<group>";
+		};
+		2BA224D6DEF3B54B459E23BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A58D1638D3F09B7677765CD /* Pods-Coronavoider.debug.xcconfig */,
+				D3947DB06A3127D6CAC11FBF /* Pods-Coronavoider.release.xcconfig */,
+				73B1C2F4E467C1E44CB0391F /* Pods-Coronavoider-CoronavoiderUITests.debug.xcconfig */,
+				1B5FBB3D85006924E3663844 /* Pods-Coronavoider-CoronavoiderUITests.release.xcconfig */,
+				7A3B9BF9B3D5F33ECDEFC718 /* Pods-CoronavoiderTests.debug.xcconfig */,
+				32BBAD1E63ACF2A44ECB0B93 /* Pods-CoronavoiderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2CDC254969BA0C581E20B2EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				515FC0B3E25D91E6FC6D3687 /* Pods_Coronavoider.framework */,
+				E05305BE9FBF93AA3B062617 /* Pods_Coronavoider_CoronavoiderUITests.framework */,
+				9CE12FCFF9AC26FA74B776D0 /* Pods_CoronavoiderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,15 +203,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B26D8C62556C4960004F77B /* Build configuration list for PBXNativeTarget "Coronavoider" */;
 			buildPhases = (
+				ED0C4D23E86FFB56951A8C4A /* [CP] Check Pods Manifest.lock */,
 				0B26D8982556C4940004F77B /* Sources */,
 				0B26D8992556C4940004F77B /* Frameworks */,
 				0B26D89A2556C4940004F77B /* Resources */,
+				EEABFD77585777038C84AF95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Coronavoider;
+			packageProductDependencies = (
+				0B26D8E02556DC920004F77B /* TPPDF */,
+			);
 			productName = Coronavoider;
 			productReference = 0B26D89C2556C4940004F77B /* Coronavoider.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B26D8C92556C4960004F77B /* Build configuration list for PBXNativeTarget "CoronavoiderTests" */;
 			buildPhases = (
+				0E350D4EFE47207D6D5A120C /* [CP] Check Pods Manifest.lock */,
 				0B26D8AE2556C4960004F77B /* Sources */,
 				0B26D8AF2556C4960004F77B /* Frameworks */,
 				0B26D8B02556C4960004F77B /* Resources */,
@@ -170,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B26D8CC2556C4960004F77B /* Build configuration list for PBXNativeTarget "CoronavoiderUITests" */;
 			buildPhases = (
+				A342CE8B936DAE8F120B5BB8 /* [CP] Check Pods Manifest.lock */,
 				0B26D8B92556C4960004F77B /* Sources */,
 				0B26D8BA2556C4960004F77B /* Frameworks */,
 				0B26D8BB2556C4960004F77B /* Resources */,
+				DD3B1350B2E1E7BF192BF988 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +291,9 @@
 				Base,
 			);
 			mainGroup = 0B26D8932556C4940004F77B;
+			packageReferences = (
+				0B26D8DF2556DC920004F77B /* XCRemoteSwiftPackageReference "TPPDF" */,
+			);
 			productRefGroup = 0B26D89D2556C4940004F77B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +310,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B26D92C2556F1910004F77B /* Declaratie.pdf in Resources */,
 				0B26D8AC2556C4950004F77B /* LaunchScreen.storyboard in Resources */,
 				0B26D8A92556C4950004F77B /* Assets.xcassets in Resources */,
 				0B26D8A72556C4940004F77B /* Main.storyboard in Resources */,
+				0BDDE06625570F790017449E /* ms.png in Resources */,
+				0BDDE073255713980017449E /* YesIdea.png in Resources */,
+				0BDDE06E255713910017449E /* NoIdea.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +336,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E350D4EFE47207D6D5A120C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoronavoiderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A342CE8B936DAE8F120B5BB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coronavoider-CoronavoiderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3B1350B2E1E7BF192BF988 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coronavoider-CoronavoiderUITests/Pods-Coronavoider-CoronavoiderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coronavoider-CoronavoiderUITests/Pods-Coronavoider-CoronavoiderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coronavoider-CoronavoiderUITests/Pods-Coronavoider-CoronavoiderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0C4D23E86FFB56951A8C4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coronavoider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEABFD77585777038C84AF95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coronavoider/Pods-Coronavoider-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coronavoider/Pods-Coronavoider-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coronavoider/Pods-Coronavoider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B26D8982556C4940004F77B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0B26D8A42556C4940004F77B /* ViewController.swift in Sources */,
+				0B26D8DB2556D95B0004F77B /* GenerateDeclaration.swift in Sources */,
 				0B26D8A02556C4940004F77B /* AppDelegate.swift in Sources */,
 				0B26D8A22556C4940004F77B /* SceneDelegate.swift in Sources */,
+				0B26D8E62556E0180004F77B /* Duty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +621,12 @@
 		};
 		0B26D8C72556C4960004F77B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A58D1638D3F09B7677765CD /* Pods-Coronavoider.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T382GCVJS;
 				INFOPLIST_FILE = Coronavoider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,10 +641,12 @@
 		};
 		0B26D8C82556C4960004F77B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3947DB06A3127D6CAC11FBF /* Pods-Coronavoider.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T382GCVJS;
 				INFOPLIST_FILE = Coronavoider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +661,7 @@
 		};
 		0B26D8CA2556C4960004F77B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3B9BF9B3D5F33ECDEFC718 /* Pods-CoronavoiderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +683,7 @@
 		};
 		0B26D8CB2556C4960004F77B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32BBAD1E63ACF2A44ECB0B93 /* Pods-CoronavoiderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +705,7 @@
 		};
 		0B26D8CD2556C4960004F77B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B1C2F4E467C1E44CB0391F /* Pods-Coronavoider-CoronavoiderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +725,7 @@
 		};
 		0B26D8CE2556C4960004F77B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5FBB3D85006924E3663844 /* Pods-Coronavoider-CoronavoiderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -587,6 +783,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B26D8DF2556DC920004F77B /* XCRemoteSwiftPackageReference "TPPDF" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/techprimate/TPPDF";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B26D8E02556DC920004F77B /* TPPDF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B26D8DF2556DC920004F77B /* XCRemoteSwiftPackageReference "TPPDF" */;
+			productName = TPPDF;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B26D8942556C4940004F77B /* Project object */;
 }

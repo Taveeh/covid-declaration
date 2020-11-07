@@ -1,0 +1,1148 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068F578BD80C93444CDFC7FAC7C101DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		08D840D453FC72618C55361EB1AAA1A1 /* Pods-Coronavoider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E588DFF87B62F496EA026B3DD82374D /* Pods-Coronavoider-dummy.m */; };
+		0D161864BE877464ED0B0D8DF7230622 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */; };
+		14F12194316F6BEFD04FA469850850FE /* ILPDFArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 236C63E1FA17E38D2B1656AF159C3F7A /* ILPDFArray.m */; };
+		1B272EE0499552CC7C4448D05EAC4953 /* ILPDFSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB3048B6E7C6262560ECC602CA97147 /* ILPDFSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EF88429A704A59615FC3E2AAE21BAA8 /* ILPDFDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D49F3BF021C196AC5703D7CD1903AD23 /* ILPDFDictionary.m */; };
+		24F91D3E1B4C207DD0A9D7C41A72529A /* ILPDFFormChoiceField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C92EEE2F4DCDC951A1EE6E18F85AD0E /* ILPDFFormChoiceField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2590B834A50CF386871FC05991F77EE4 /* ILPDFFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3A708A3888718C066DD65ADF48C05D /* ILPDFFormTextField.m */; };
+		280CA96870F3C058FAF0E20781A667E1 /* ILPDFPage.h in Headers */ = {isa = PBXBuildFile; fileRef = CB431BE4B04505D4F2E9C1C62C45E2B0 /* ILPDFPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CA0F028ECA47B7BCF35414F2D331C4B /* ILPDFNull.m in Sources */ = {isa = PBXBuildFile; fileRef = EA497B2FFBEECFDE4814B4CAF5EE0880 /* ILPDFNull.m */; };
+		39F1117348B9A96ED051E931861C01C0 /* ILPDFFormContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E255D2554CA156E33D154D8820A95C /* ILPDFFormContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EDA493BFF1155F8C4F25E52DCF47248 /* ILPDFForm.h in Headers */ = {isa = PBXBuildFile; fileRef = A639A6BA4AA142C85D007128B1A644E8 /* ILPDFForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40AA98431BDB5D77081E04F1848387E5 /* Pods-Coronavoider-CoronavoiderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDF984D1846DB7CFB825E9747BF8E6 /* Pods-Coronavoider-CoronavoiderUITests-dummy.m */; };
+		4AC388066EFDCE4F475252D537CBA9BF /* ILPDFWidgetAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B582160D722FACE3855E1BDE5531B4 /* ILPDFWidgetAnnotationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513812E37DC5EA0E8493742B3FE068ED /* ILPDFFormSignatureField.m in Sources */ = {isa = PBXBuildFile; fileRef = 19825857BC98F3AA7692A0257BB81508 /* ILPDFFormSignatureField.m */; };
+		58B9A4F26753F1651E5DAA0F32760877 /* ILPDFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDDB5F8700CACF9DA9EA0B0F570A6A7 /* ILPDFObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB0C18B88517E87C135E696D9B22859 /* Pods-CoronavoiderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B89BBF7023797F31DACB139A55FA957 /* Pods-CoronavoiderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6727D31C897ABCD63165E2625201863D /* ILPDFUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3DD7AF038FB3317FC71E0ED3E21A6D /* ILPDFUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69121282CCEC33B42523E94DB96E11AA /* ILPDFString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E477DAEF8F4F83F87E4277520DEB8B4 /* ILPDFString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C5347B43E92611643F73183EDA36C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */; };
+		72A715383CE0A33CC816D6A4DD5C8569 /* ILPDFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB82660D099178484C7D9720A4C1AB3 /* ILPDFKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		802D2A4E8197F8D0DAB7523A38EC749F /* ILPDFDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E59CE0B345E490FEE16FF56628E473 /* ILPDFDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829ABBF05B0F6B88E55AD336DC477788 /* ILPDFFormTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 95056BED589C24D9E50EC8C84C985FBF /* ILPDFFormTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0F52F43C04A16D7772A73F5CFD13C0 /* ILPDFObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9057039A414592832690272D8995BD /* ILPDFObjectParser.m */; };
+		8B18AD7758161B7C24C34BEABFA3B4AB /* Pods-CoronavoiderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53174927845D62727326F98117E6CD38 /* Pods-CoronavoiderTests-dummy.m */; };
+		9393D3ADA4E714A6DDE9B2E19518FFA7 /* ILPDFForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E96450F6EFB51D3F303374C7EB54C11 /* ILPDFForm.m */; };
+		98498B3BD1746E77F4CB3CDED2F421BA /* ILPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF6D55E585F2E4139EC97C90BAE60 /* ILPDFDocument.m */; };
+		9BFE393845D8505EA7A37FB4A812CB32 /* ILPDFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B372CE6F829F61EA71820CC5EF81B7 /* ILPDFKit-dummy.m */; };
+		9C4147D9AD7A6F45B32EBEA0307C468D /* ILPDFFormButtonField.m in Sources */ = {isa = PBXBuildFile; fileRef = AED394A552EE03B19DA37044A8F319EA /* ILPDFFormButtonField.m */; };
+		9FC2A4C10275D59B5B26E24B13555E5A /* ILPDFSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A93E01162FE249B823210F3C7E9CFAC0 /* ILPDFSerializer.m */; };
+		A33C4E0D7107BBA40A3C28CD4BBA46B7 /* ILPDFObjectParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E476062FA3A661CF81A5A05039C5D2F5 /* ILPDFObjectParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5FC37198027B14DBF163ABA9EB65A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		A7EFC38B94BF0A8A522013CD5933094E /* ILPDFFormButtonField.h in Headers */ = {isa = PBXBuildFile; fileRef = AF82CA381D7C23C45B178E139945E197 /* ILPDFFormButtonField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A887EEF4CB8BF6DF2BA671CFFAAC42E0 /* ILPDFFormChoiceField.m in Sources */ = {isa = PBXBuildFile; fileRef = A1917E2EB35CAAA475C45E07EDDFEE99 /* ILPDFFormChoiceField.m */; };
+		AD82CECC9915A96F2FB45A0023FE48F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		ADDC7F9A5FCAC7CCE1CDFBAD8AB5F2EF /* ILPDFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C48CEEDB41126FBD0293062003C639 /* ILPDFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8A1F88AD2F0EBCDC8A65F97A87EFF86 /* ILPDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 54124AD2841D6481CEAE66F149D452C7 /* ILPDFPage.m */; };
+		BA3F59D496B3B36C0FACB5658360D236 /* ILPDFString.m in Sources */ = {isa = PBXBuildFile; fileRef = 490A2CE2470E63D26E5AC80712363828 /* ILPDFString.m */; };
+		BF863E8E11D62B96A6F254FE9F84667C /* ILPDFNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 65648D57A0CF4F1D80CE83D47E61D50A /* ILPDFNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C15B498B31785B93D30736CBD9F751C8 /* ILPDFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C415A17A0D090CD7366CB1226D297660 /* ILPDFUtility.m */; };
+		C3C3E137B5D2F66B5C6C7786F85C2AB3 /* Pods-Coronavoider-CoronavoiderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC27F7A649797174DCED04279D03DCC6 /* Pods-Coronavoider-CoronavoiderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C888556B03E06C975B1B572DE4D31CB6 /* ILPDFView.h in Headers */ = {isa = PBXBuildFile; fileRef = C69281E6923F2043611D48E0419B6294 /* ILPDFView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A80D06D8FAD57BC43FFA6E26148C56 /* ILPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1513BCABA30A460F61EE4C0D333DF116 /* ILPDFView.m */; };
+		D940E39F4F63DABCF62A2E8CF425AAF9 /* ILPDFStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36816F0EAE80B0B37CEB1E9D38896 /* ILPDFStream.m */; };
+		DBCCDDBA4F253053632A2B64D48836B1 /* ILPDFArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 599F8FCA4FA97FC8C45B5C8B3A8877F2 /* ILPDFArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE99DC38DCAE0EA0481EBF7E209433DE /* ILPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636BE28F26D53EA8C29581EF8C317C3F /* ILPDFViewController.m */; };
+		DF3B68AE1901882478FD699F31039B20 /* ILPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C43AE24573685A32D38A97B542D437D /* ILPDFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E351EEA1F59C111DB4026500E7CAD576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		E4BBEE793D6532325E2FA23A14B4C9FB /* ILPDFWidgetAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079363D9DF4A0824FDBBA4DC8450DE5B /* ILPDFWidgetAnnotationView.m */; };
+		E89322F0891C6C16D08CE93BBC984A14 /* Pods-Coronavoider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E14ABE170450CCAC34AACD1F7D3098D6 /* Pods-Coronavoider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F05CAA11B2F5E37ACC39623DD3681AC9 /* ILPDFKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC55324CC4F9C60ED41FB2C24E4B969 /* ILPDFKit.swift */; };
+		F509312FC1142A20FCD2FA81F4148394 /* ILPDFNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B463EC3946BE9D4EF6933664938775 /* ILPDFNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F52F1AC315E3A4D7F22578C9B0CFA16D /* ILPDFFormContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC18849A11447C7C852C5CDB8D3CFE /* ILPDFFormContainer.m */; };
+		F614000D02E69D4996C10AC90FACA043 /* ILPDFViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9971B973263551624606645A073978DB /* ILPDFViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6CD6FF4CD948AACFFE3808D3F2317E8 /* ILPDFName.h in Headers */ = {isa = PBXBuildFile; fileRef = 06436BB0A03E250953E1577FB88988CB /* ILPDFName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6D92DF3E2E3355C4CF7251377B6C7EE /* ILPDFFormSignatureField.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B284918651D916140AF2A4A5701476 /* ILPDFFormSignatureField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8804BB42A515456483B173B04FB132 /* ILPDFNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4212570508434913FFCDB9CB6180B1 /* ILPDFNumber.m */; };
+		FB06C177A61A7C6EF791692E6325AC65 /* ILPDFStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E08330ABE02A17A47910DA9BDA1ED7 /* ILPDFStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6232A6FCB4F940525405F19FD6338F /* ILPDFName.m in Sources */ = {isa = PBXBuildFile; fileRef = 9221AB8C17D7F23CEB925D7D1EB05389 /* ILPDFName.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		225F08F41DFDE7F290D3B1149E9F37A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6401258C324723BF70EAEF2C6B0B59C9;
+			remoteInfo = ILPDFKit;
+		};
+		2A7BB5A28BBE3D6B3F822BEEA4B98069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6401258C324723BF70EAEF2C6B0B59C9;
+			remoteInfo = ILPDFKit;
+		};
+		C4D6949D52D9AEE00A3A48517B5CED36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9105E5C2EA698E587185535F18C6782;
+			remoteInfo = "Pods-Coronavoider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B7810A77820D57487C03F3AA85AB6B /* Pods-Coronavoider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coronavoider-Info.plist"; sourceTree = "<group>"; };
+		01E08330ABE02A17A47910DA9BDA1ED7 /* ILPDFStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFStream.h; path = ILPDFKit/Model/Objects/ILPDFStream.h; sourceTree = "<group>"; };
+		06436BB0A03E250953E1577FB88988CB /* ILPDFName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFName.h; path = ILPDFKit/Model/Objects/ILPDFName.h; sourceTree = "<group>"; };
+		079363D9DF4A0824FDBBA4DC8450DE5B /* ILPDFWidgetAnnotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFWidgetAnnotationView.m; path = ILPDFKit/View/ILPDFWidgetAnnotationView.m; sourceTree = "<group>"; };
+		09A732725EA52072495C6329535166F3 /* Pods-Coronavoider-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coronavoider-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BFD1298608D1A33F62DC205662530BA /* ILPDFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ILPDFKit.modulemap; sourceTree = "<group>"; };
+		0C3DD7AF038FB3317FC71E0ED3E21A6D /* ILPDFUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFUtility.h; path = ILPDFKit/Utility/ILPDFUtility.h; sourceTree = "<group>"; };
+		0DA63EB0E6ECDFCBC604430819EF5741 /* Pods-Coronavoider-CoronavoiderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coronavoider-CoronavoiderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E477DAEF8F4F83F87E4277520DEB8B4 /* ILPDFString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFString.h; path = ILPDFKit/Model/Objects/ILPDFString.h; sourceTree = "<group>"; };
+		0FC123254320CE1544B6E6E1A8F32ED0 /* Pods-Coronavoider-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coronavoider-frameworks.sh"; sourceTree = "<group>"; };
+		10976EA441F9820708E7F6C1B155962F /* Pods-Coronavoider-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coronavoider-acknowledgements.plist"; sourceTree = "<group>"; };
+		1513BCABA30A460F61EE4C0D333DF116 /* ILPDFView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFView.m; path = ILPDFKit/View/ILPDFView.m; sourceTree = "<group>"; };
+		15B372CE6F829F61EA71820CC5EF81B7 /* ILPDFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ILPDFKit-dummy.m"; sourceTree = "<group>"; };
+		1669B1A7E9B7BFD4D93D59FC1DBB50C8 /* Pods-Coronavoider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coronavoider.debug.xcconfig"; sourceTree = "<group>"; };
+		19825857BC98F3AA7692A0257BB81508 /* ILPDFFormSignatureField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormSignatureField.m; path = ILPDFKit/View/ILPDFFormSignatureField.m; sourceTree = "<group>"; };
+		2191B874B6BD422406CDC172A15F0582 /* ILPDFKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ILPDFKit.debug.xcconfig; sourceTree = "<group>"; };
+		236C63E1FA17E38D2B1656AF159C3F7A /* ILPDFArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFArray.m; path = ILPDFKit/Model/Objects/ILPDFArray.m; sourceTree = "<group>"; };
+		2AD36816F0EAE80B0B37CEB1E9D38896 /* ILPDFStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFStream.m; path = ILPDFKit/Model/Objects/ILPDFStream.m; sourceTree = "<group>"; };
+		3FF3A970162CEC2322DA3F25801B97B8 /* Pods-CoronavoiderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoronavoiderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		43864F4AF3DF74427C865EBCCA4AD743 /* Pods-CoronavoiderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoronavoiderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		466D280ACC9F673FCE4B1F3606D050D9 /* Pods-Coronavoider-CoronavoiderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coronavoider-CoronavoiderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48474115556F78251762616929FDCBAE /* ILPDFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ILPDFKit-prefix.pch"; sourceTree = "<group>"; };
+		490A2CE2470E63D26E5AC80712363828 /* ILPDFString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFString.m; path = ILPDFKit/Model/Objects/ILPDFString.m; sourceTree = "<group>"; };
+		4E588DFF87B62F496EA026B3DD82374D /* Pods-Coronavoider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coronavoider-dummy.m"; sourceTree = "<group>"; };
+		4F141B0B0428891424A1B37A9C5A479B /* Pods-CoronavoiderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoronavoiderTests.modulemap"; sourceTree = "<group>"; };
+		53174927845D62727326F98117E6CD38 /* Pods-CoronavoiderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoronavoiderTests-dummy.m"; sourceTree = "<group>"; };
+		54124AD2841D6481CEAE66F149D452C7 /* ILPDFPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFPage.m; path = ILPDFKit/Model/ILPDFPage.m; sourceTree = "<group>"; };
+		55E255D2554CA156E33D154D8820A95C /* ILPDFFormContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormContainer.h; path = ILPDFKit/Model/ILPDFFormContainer.h; sourceTree = "<group>"; };
+		560AB27E962F097007F24BC4E3028F6D /* Pods-Coronavoider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coronavoider.modulemap"; sourceTree = "<group>"; };
+		599F8FCA4FA97FC8C45B5C8B3A8877F2 /* ILPDFArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFArray.h; path = ILPDFKit/Model/Objects/ILPDFArray.h; sourceTree = "<group>"; };
+		5E3A708A3888718C066DD65ADF48C05D /* ILPDFFormTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormTextField.m; path = ILPDFKit/View/ILPDFFormTextField.m; sourceTree = "<group>"; };
+		636BE28F26D53EA8C29581EF8C317C3F /* ILPDFViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFViewController.m; path = ILPDFKit/Controller/ILPDFViewController.m; sourceTree = "<group>"; };
+		63EDF984D1846DB7CFB825E9747BF8E6 /* Pods-Coronavoider-CoronavoiderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coronavoider-CoronavoiderUITests-dummy.m"; sourceTree = "<group>"; };
+		65144B3BDC69E88A473BB8789FA28182 /* Pods_Coronavoider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Coronavoider.framework; path = "Pods-Coronavoider.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65648D57A0CF4F1D80CE83D47E61D50A /* ILPDFNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFNull.h; path = ILPDFKit/Model/Objects/ILPDFNull.h; sourceTree = "<group>"; };
+		69E59CE0B345E490FEE16FF56628E473 /* ILPDFDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFDictionary.h; path = ILPDFKit/Model/Objects/ILPDFDictionary.h; sourceTree = "<group>"; };
+		6FB82660D099178484C7D9720A4C1AB3 /* ILPDFKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFKit.h; path = ILPDFKit/ILPDFKit.h; sourceTree = "<group>"; };
+		75776B0D2D0DA64902D4E0520C836DD3 /* Pods-Coronavoider-CoronavoiderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coronavoider-CoronavoiderUITests.modulemap"; sourceTree = "<group>"; };
+		79AC18849A11447C7C852C5CDB8D3CFE /* ILPDFFormContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormContainer.m; path = ILPDFKit/Model/ILPDFFormContainer.m; sourceTree = "<group>"; };
+		79BD9B1892D875B3BEFD58FF7677A22E /* Pods-CoronavoiderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoronavoiderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C43AE24573685A32D38A97B542D437D /* ILPDFDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFDocument.h; path = ILPDFKit/Model/ILPDFDocument.h; sourceTree = "<group>"; };
+		7E96450F6EFB51D3F303374C7EB54C11 /* ILPDFForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFForm.m; path = ILPDFKit/Model/ILPDFForm.m; sourceTree = "<group>"; };
+		8B89BBF7023797F31DACB139A55FA957 /* Pods-CoronavoiderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoronavoiderTests-umbrella.h"; sourceTree = "<group>"; };
+		8C92EEE2F4DCDC951A1EE6E18F85AD0E /* ILPDFFormChoiceField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormChoiceField.h; path = ILPDFKit/View/ILPDFFormChoiceField.h; sourceTree = "<group>"; };
+		8D9057039A414592832690272D8995BD /* ILPDFObjectParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFObjectParser.m; path = ILPDFKit/Utility/ILPDFObjectParser.m; sourceTree = "<group>"; };
+		8E4212570508434913FFCDB9CB6180B1 /* ILPDFNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFNumber.m; path = ILPDFKit/Model/Objects/ILPDFNumber.m; sourceTree = "<group>"; };
+		9221AB8C17D7F23CEB925D7D1EB05389 /* ILPDFName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFName.m; path = ILPDFKit/Model/Objects/ILPDFName.m; sourceTree = "<group>"; };
+		95056BED589C24D9E50EC8C84C985FBF /* ILPDFFormTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormTextField.h; path = ILPDFKit/View/ILPDFFormTextField.h; sourceTree = "<group>"; };
+		97AAE3BDF85B56C60895D4B2DC489B67 /* Pods_CoronavoiderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoronavoiderTests.framework; path = "Pods-CoronavoiderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9971B973263551624606645A073978DB /* ILPDFViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFViewController.h; path = ILPDFKit/Controller/ILPDFViewController.h; sourceTree = "<group>"; };
+		9BDDB5F8700CACF9DA9EA0B0F570A6A7 /* ILPDFObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFObject.h; path = ILPDFKit/Model/Objects/ILPDFObject.h; sourceTree = "<group>"; };
+		9D6CE06E021E6528F8A05645F6FA8DF9 /* Pods_Coronavoider_CoronavoiderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Coronavoider_CoronavoiderUITests.framework; path = "Pods-Coronavoider-CoronavoiderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1917E2EB35CAAA475C45E07EDDFEE99 /* ILPDFFormChoiceField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormChoiceField.m; path = ILPDFKit/View/ILPDFFormChoiceField.m; sourceTree = "<group>"; };
+		A3B582160D722FACE3855E1BDE5531B4 /* ILPDFWidgetAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFWidgetAnnotationView.h; path = ILPDFKit/View/ILPDFWidgetAnnotationView.h; sourceTree = "<group>"; };
+		A5C6E8B72F833250CF61DEEA14CFEED9 /* ILPDFKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ILPDFKit-Info.plist"; sourceTree = "<group>"; };
+		A639A6BA4AA142C85D007128B1A644E8 /* ILPDFForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFForm.h; path = ILPDFKit/Model/ILPDFForm.h; sourceTree = "<group>"; };
+		A93E01162FE249B823210F3C7E9CFAC0 /* ILPDFSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFSerializer.m; path = ILPDFKit/Controller/ILPDFSerializer.m; sourceTree = "<group>"; };
+		AED394A552EE03B19DA37044A8F319EA /* ILPDFFormButtonField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormButtonField.m; path = ILPDFKit/View/ILPDFFormButtonField.m; sourceTree = "<group>"; };
+		AF82CA381D7C23C45B178E139945E197 /* ILPDFFormButtonField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormButtonField.h; path = ILPDFKit/View/ILPDFFormButtonField.h; sourceTree = "<group>"; };
+		B86A63EDCAB21006A9481B5DFBB30789 /* Pods-CoronavoiderTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoronavoiderTests-Info.plist"; sourceTree = "<group>"; };
+		C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C415A17A0D090CD7366CB1226D297660 /* ILPDFUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFUtility.m; path = ILPDFKit/Utility/ILPDFUtility.m; sourceTree = "<group>"; };
+		C560B0C1C6D85A92BEFB7AC874871A37 /* Pods-Coronavoider-CoronavoiderUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coronavoider-CoronavoiderUITests-Info.plist"; sourceTree = "<group>"; };
+		C5CDF6D55E585F2E4139EC97C90BAE60 /* ILPDFDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFDocument.m; path = ILPDFKit/Model/ILPDFDocument.m; sourceTree = "<group>"; };
+		C68492480A73768F77A0E0B7132878C6 /* Pods-Coronavoider-CoronavoiderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coronavoider-CoronavoiderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C69281E6923F2043611D48E0419B6294 /* ILPDFView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFView.h; path = ILPDFKit/View/ILPDFView.h; sourceTree = "<group>"; };
+		CB431BE4B04505D4F2E9C1C62C45E2B0 /* ILPDFPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFPage.h; path = ILPDFKit/Model/ILPDFPage.h; sourceTree = "<group>"; };
+		D25EBA59C30A844FD81E005732AAD496 /* Pods-Coronavoider-CoronavoiderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coronavoider-CoronavoiderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D49F3BF021C196AC5703D7CD1903AD23 /* ILPDFDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFDictionary.m; path = ILPDFKit/Model/Objects/ILPDFDictionary.m; sourceTree = "<group>"; };
+		D5B284918651D916140AF2A4A5701476 /* ILPDFFormSignatureField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormSignatureField.h; path = ILPDFKit/View/ILPDFFormSignatureField.h; sourceTree = "<group>"; };
+		DBE5187D86C1E5E00A6EF941320486A1 /* ILPDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ILPDFKit.framework; path = ILPDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC755D3290E3E6CE77F6000245365FD8 /* Pods-Coronavoider-CoronavoiderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coronavoider-CoronavoiderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE92DBC984657DDA7F53AF65AEC77A99 /* Pods-Coronavoider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coronavoider.release.xcconfig"; sourceTree = "<group>"; };
+		DEB3048B6E7C6262560ECC602CA97147 /* ILPDFSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFSerializer.h; path = ILPDFKit/Controller/ILPDFSerializer.h; sourceTree = "<group>"; };
+		DEC55324CC4F9C60ED41FB2C24E4B969 /* ILPDFKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ILPDFKit.swift; path = ILPDFKit/Swift/ILPDFKit.swift; sourceTree = "<group>"; };
+		E14ABE170450CCAC34AACD1F7D3098D6 /* Pods-Coronavoider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coronavoider-umbrella.h"; sourceTree = "<group>"; };
+		E2C48CEEDB41126FBD0293062003C639 /* ILPDFKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ILPDFKit-umbrella.h"; sourceTree = "<group>"; };
+		E3B463EC3946BE9D4EF6933664938775 /* ILPDFNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFNumber.h; path = ILPDFKit/Model/Objects/ILPDFNumber.h; sourceTree = "<group>"; };
+		E476062FA3A661CF81A5A05039C5D2F5 /* ILPDFObjectParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFObjectParser.h; path = ILPDFKit/Utility/ILPDFObjectParser.h; sourceTree = "<group>"; };
+		EA497B2FFBEECFDE4814B4CAF5EE0880 /* ILPDFNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFNull.m; path = ILPDFKit/Model/Objects/ILPDFNull.m; sourceTree = "<group>"; };
+		EC75C689E48975581EBA6EAEE342DAC8 /* ILPDFKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ILPDFKit.release.xcconfig; sourceTree = "<group>"; };
+		F6CA1DCE3ED38493B280C28E367D20E2 /* Pods-CoronavoiderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoronavoiderTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC27F7A649797174DCED04279D03DCC6 /* Pods-Coronavoider-CoronavoiderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coronavoider-CoronavoiderUITests-umbrella.h"; sourceTree = "<group>"; };
+		FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		826E3E79B776691762A4EC226F6130D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068F578BD80C93444CDFC7FAC7C101DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D2D9B7ABC4D7839C6B6CA289B1A82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC37198027B14DBF163ABA9EB65A4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C331C69E1596A5E593BF1A9FDF0ABA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD82CECC9915A96F2FB45A0023FE48F3 /* Foundation.framework in Frameworks */,
+				0D161864BE877464ED0B0D8DF7230622 /* QuartzCore.framework in Frameworks */,
+				70C5347B43E92611643F73183EDA36C8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2341E2609B4A677E9DBA13979A90C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E351EEA1F59C111DB4026500E7CAD576 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84500DE8FA3C1A04FB6C1A7869926382 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D81B96D2D975DCEBAD937F6E887F601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE5187D86C1E5E00A6EF941320486A1 /* ILPDFKit.framework */,
+				65144B3BDC69E88A473BB8789FA28182 /* Pods_Coronavoider.framework */,
+				9D6CE06E021E6528F8A05645F6FA8DF9 /* Pods_Coronavoider_CoronavoiderUITests.framework */,
+				97AAE3BDF85B56C60895D4B2DC489B67 /* Pods_CoronavoiderTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		310B55CF3BB8B92BA7E2667A16B0C99A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8BBEE37AAEBD1F1987D7E4172856639 /* ILPDFKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84500DE8FA3C1A04FB6C1A7869926382 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */,
+				FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */,
+				C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A499C68872E8671444AFE0FEA5EEC28E /* Pods-CoronavoiderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F141B0B0428891424A1B37A9C5A479B /* Pods-CoronavoiderTests.modulemap */,
+				79BD9B1892D875B3BEFD58FF7677A22E /* Pods-CoronavoiderTests-acknowledgements.markdown */,
+				3FF3A970162CEC2322DA3F25801B97B8 /* Pods-CoronavoiderTests-acknowledgements.plist */,
+				53174927845D62727326F98117E6CD38 /* Pods-CoronavoiderTests-dummy.m */,
+				B86A63EDCAB21006A9481B5DFBB30789 /* Pods-CoronavoiderTests-Info.plist */,
+				8B89BBF7023797F31DACB139A55FA957 /* Pods-CoronavoiderTests-umbrella.h */,
+				43864F4AF3DF74427C865EBCCA4AD743 /* Pods-CoronavoiderTests.debug.xcconfig */,
+				F6CA1DCE3ED38493B280C28E367D20E2 /* Pods-CoronavoiderTests.release.xcconfig */,
+			);
+			name = "Pods-CoronavoiderTests";
+			path = "Target Support Files/Pods-CoronavoiderTests";
+			sourceTree = "<group>";
+		};
+		B07F95E4CEE02021327204BD02675E4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BFD1298608D1A33F62DC205662530BA /* ILPDFKit.modulemap */,
+				15B372CE6F829F61EA71820CC5EF81B7 /* ILPDFKit-dummy.m */,
+				A5C6E8B72F833250CF61DEEA14CFEED9 /* ILPDFKit-Info.plist */,
+				48474115556F78251762616929FDCBAE /* ILPDFKit-prefix.pch */,
+				E2C48CEEDB41126FBD0293062003C639 /* ILPDFKit-umbrella.h */,
+				2191B874B6BD422406CDC172A15F0582 /* ILPDFKit.debug.xcconfig */,
+				EC75C689E48975581EBA6EAEE342DAC8 /* ILPDFKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ILPDFKit";
+			sourceTree = "<group>";
+		};
+		CA68FFC02AC0BE960C6726BBB75790E1 /* Pods-Coronavoider-CoronavoiderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75776B0D2D0DA64902D4E0520C836DD3 /* Pods-Coronavoider-CoronavoiderUITests.modulemap */,
+				C68492480A73768F77A0E0B7132878C6 /* Pods-Coronavoider-CoronavoiderUITests-acknowledgements.markdown */,
+				DC755D3290E3E6CE77F6000245365FD8 /* Pods-Coronavoider-CoronavoiderUITests-acknowledgements.plist */,
+				63EDF984D1846DB7CFB825E9747BF8E6 /* Pods-Coronavoider-CoronavoiderUITests-dummy.m */,
+				D25EBA59C30A844FD81E005732AAD496 /* Pods-Coronavoider-CoronavoiderUITests-frameworks.sh */,
+				C560B0C1C6D85A92BEFB7AC874871A37 /* Pods-Coronavoider-CoronavoiderUITests-Info.plist */,
+				FC27F7A649797174DCED04279D03DCC6 /* Pods-Coronavoider-CoronavoiderUITests-umbrella.h */,
+				0DA63EB0E6ECDFCBC604430819EF5741 /* Pods-Coronavoider-CoronavoiderUITests.debug.xcconfig */,
+				466D280ACC9F673FCE4B1F3606D050D9 /* Pods-Coronavoider-CoronavoiderUITests.release.xcconfig */,
+			);
+			name = "Pods-Coronavoider-CoronavoiderUITests";
+			path = "Target Support Files/Pods-Coronavoider-CoronavoiderUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				310B55CF3BB8B92BA7E2667A16B0C99A /* Pods */,
+				0D81B96D2D975DCEBAD937F6E887F601 /* Products */,
+				FB4BC2A046E5B4FFAF7EBF6F0A277880 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F2AB1C0FB897F21E39DDD32CECE8C85F /* Pods-Coronavoider */ = {
+			isa = PBXGroup;
+			children = (
+				560AB27E962F097007F24BC4E3028F6D /* Pods-Coronavoider.modulemap */,
+				09A732725EA52072495C6329535166F3 /* Pods-Coronavoider-acknowledgements.markdown */,
+				10976EA441F9820708E7F6C1B155962F /* Pods-Coronavoider-acknowledgements.plist */,
+				4E588DFF87B62F496EA026B3DD82374D /* Pods-Coronavoider-dummy.m */,
+				0FC123254320CE1544B6E6E1A8F32ED0 /* Pods-Coronavoider-frameworks.sh */,
+				00B7810A77820D57487C03F3AA85AB6B /* Pods-Coronavoider-Info.plist */,
+				E14ABE170450CCAC34AACD1F7D3098D6 /* Pods-Coronavoider-umbrella.h */,
+				1669B1A7E9B7BFD4D93D59FC1DBB50C8 /* Pods-Coronavoider.debug.xcconfig */,
+				DE92DBC984657DDA7F53AF65AEC77A99 /* Pods-Coronavoider.release.xcconfig */,
+			);
+			name = "Pods-Coronavoider";
+			path = "Target Support Files/Pods-Coronavoider";
+			sourceTree = "<group>";
+		};
+		F8BBEE37AAEBD1F1987D7E4172856639 /* ILPDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				599F8FCA4FA97FC8C45B5C8B3A8877F2 /* ILPDFArray.h */,
+				236C63E1FA17E38D2B1656AF159C3F7A /* ILPDFArray.m */,
+				69E59CE0B345E490FEE16FF56628E473 /* ILPDFDictionary.h */,
+				D49F3BF021C196AC5703D7CD1903AD23 /* ILPDFDictionary.m */,
+				7C43AE24573685A32D38A97B542D437D /* ILPDFDocument.h */,
+				C5CDF6D55E585F2E4139EC97C90BAE60 /* ILPDFDocument.m */,
+				A639A6BA4AA142C85D007128B1A644E8 /* ILPDFForm.h */,
+				7E96450F6EFB51D3F303374C7EB54C11 /* ILPDFForm.m */,
+				AF82CA381D7C23C45B178E139945E197 /* ILPDFFormButtonField.h */,
+				AED394A552EE03B19DA37044A8F319EA /* ILPDFFormButtonField.m */,
+				8C92EEE2F4DCDC951A1EE6E18F85AD0E /* ILPDFFormChoiceField.h */,
+				A1917E2EB35CAAA475C45E07EDDFEE99 /* ILPDFFormChoiceField.m */,
+				55E255D2554CA156E33D154D8820A95C /* ILPDFFormContainer.h */,
+				79AC18849A11447C7C852C5CDB8D3CFE /* ILPDFFormContainer.m */,
+				D5B284918651D916140AF2A4A5701476 /* ILPDFFormSignatureField.h */,
+				19825857BC98F3AA7692A0257BB81508 /* ILPDFFormSignatureField.m */,
+				95056BED589C24D9E50EC8C84C985FBF /* ILPDFFormTextField.h */,
+				5E3A708A3888718C066DD65ADF48C05D /* ILPDFFormTextField.m */,
+				6FB82660D099178484C7D9720A4C1AB3 /* ILPDFKit.h */,
+				DEC55324CC4F9C60ED41FB2C24E4B969 /* ILPDFKit.swift */,
+				06436BB0A03E250953E1577FB88988CB /* ILPDFName.h */,
+				9221AB8C17D7F23CEB925D7D1EB05389 /* ILPDFName.m */,
+				65648D57A0CF4F1D80CE83D47E61D50A /* ILPDFNull.h */,
+				EA497B2FFBEECFDE4814B4CAF5EE0880 /* ILPDFNull.m */,
+				E3B463EC3946BE9D4EF6933664938775 /* ILPDFNumber.h */,
+				8E4212570508434913FFCDB9CB6180B1 /* ILPDFNumber.m */,
+				9BDDB5F8700CACF9DA9EA0B0F570A6A7 /* ILPDFObject.h */,
+				E476062FA3A661CF81A5A05039C5D2F5 /* ILPDFObjectParser.h */,
+				8D9057039A414592832690272D8995BD /* ILPDFObjectParser.m */,
+				CB431BE4B04505D4F2E9C1C62C45E2B0 /* ILPDFPage.h */,
+				54124AD2841D6481CEAE66F149D452C7 /* ILPDFPage.m */,
+				DEB3048B6E7C6262560ECC602CA97147 /* ILPDFSerializer.h */,
+				A93E01162FE249B823210F3C7E9CFAC0 /* ILPDFSerializer.m */,
+				01E08330ABE02A17A47910DA9BDA1ED7 /* ILPDFStream.h */,
+				2AD36816F0EAE80B0B37CEB1E9D38896 /* ILPDFStream.m */,
+				0E477DAEF8F4F83F87E4277520DEB8B4 /* ILPDFString.h */,
+				490A2CE2470E63D26E5AC80712363828 /* ILPDFString.m */,
+				0C3DD7AF038FB3317FC71E0ED3E21A6D /* ILPDFUtility.h */,
+				C415A17A0D090CD7366CB1226D297660 /* ILPDFUtility.m */,
+				C69281E6923F2043611D48E0419B6294 /* ILPDFView.h */,
+				1513BCABA30A460F61EE4C0D333DF116 /* ILPDFView.m */,
+				9971B973263551624606645A073978DB /* ILPDFViewController.h */,
+				636BE28F26D53EA8C29581EF8C317C3F /* ILPDFViewController.m */,
+				A3B582160D722FACE3855E1BDE5531B4 /* ILPDFWidgetAnnotationView.h */,
+				079363D9DF4A0824FDBBA4DC8450DE5B /* ILPDFWidgetAnnotationView.m */,
+				B07F95E4CEE02021327204BD02675E4B /* Support Files */,
+			);
+			name = ILPDFKit;
+			path = ILPDFKit;
+			sourceTree = "<group>";
+		};
+		FB4BC2A046E5B4FFAF7EBF6F0A277880 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AB1C0FB897F21E39DDD32CECE8C85F /* Pods-Coronavoider */,
+				CA68FFC02AC0BE960C6726BBB75790E1 /* Pods-Coronavoider-CoronavoiderUITests */,
+				A499C68872E8671444AFE0FEA5EEC28E /* Pods-CoronavoiderTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14EDAB3B5F744CB8658997F35BDA9511 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB0C18B88517E87C135E696D9B22859 /* Pods-CoronavoiderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A609517AD0D2A02AE0B19A4A83FB619 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCCDDBA4F253053632A2B64D48836B1 /* ILPDFArray.h in Headers */,
+				802D2A4E8197F8D0DAB7523A38EC749F /* ILPDFDictionary.h in Headers */,
+				DF3B68AE1901882478FD699F31039B20 /* ILPDFDocument.h in Headers */,
+				3EDA493BFF1155F8C4F25E52DCF47248 /* ILPDFForm.h in Headers */,
+				A7EFC38B94BF0A8A522013CD5933094E /* ILPDFFormButtonField.h in Headers */,
+				24F91D3E1B4C207DD0A9D7C41A72529A /* ILPDFFormChoiceField.h in Headers */,
+				39F1117348B9A96ED051E931861C01C0 /* ILPDFFormContainer.h in Headers */,
+				F6D92DF3E2E3355C4CF7251377B6C7EE /* ILPDFFormSignatureField.h in Headers */,
+				829ABBF05B0F6B88E55AD336DC477788 /* ILPDFFormTextField.h in Headers */,
+				ADDC7F9A5FCAC7CCE1CDFBAD8AB5F2EF /* ILPDFKit-umbrella.h in Headers */,
+				72A715383CE0A33CC816D6A4DD5C8569 /* ILPDFKit.h in Headers */,
+				F6CD6FF4CD948AACFFE3808D3F2317E8 /* ILPDFName.h in Headers */,
+				BF863E8E11D62B96A6F254FE9F84667C /* ILPDFNull.h in Headers */,
+				F509312FC1142A20FCD2FA81F4148394 /* ILPDFNumber.h in Headers */,
+				58B9A4F26753F1651E5DAA0F32760877 /* ILPDFObject.h in Headers */,
+				A33C4E0D7107BBA40A3C28CD4BBA46B7 /* ILPDFObjectParser.h in Headers */,
+				280CA96870F3C058FAF0E20781A667E1 /* ILPDFPage.h in Headers */,
+				1B272EE0499552CC7C4448D05EAC4953 /* ILPDFSerializer.h in Headers */,
+				FB06C177A61A7C6EF791692E6325AC65 /* ILPDFStream.h in Headers */,
+				69121282CCEC33B42523E94DB96E11AA /* ILPDFString.h in Headers */,
+				6727D31C897ABCD63165E2625201863D /* ILPDFUtility.h in Headers */,
+				C888556B03E06C975B1B572DE4D31CB6 /* ILPDFView.h in Headers */,
+				F614000D02E69D4996C10AC90FACA043 /* ILPDFViewController.h in Headers */,
+				4AC388066EFDCE4F475252D537CBA9BF /* ILPDFWidgetAnnotationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B019B8B0DFADA719BA0F770B773B6E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89322F0891C6C16D08CE93BBC984A14 /* Pods-Coronavoider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B812EFC825A444BF431859D1016791 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C3E137B5D2F66B5C6C7786F85C2AB3 /* Pods-Coronavoider-CoronavoiderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B9E54F39A27C6952AB0D49DE73E70EA /* Pods-Coronavoider-CoronavoiderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C4BB04DEFC4FEB93E7D06A6598BFA9 /* Build configuration list for PBXNativeTarget "Pods-Coronavoider-CoronavoiderUITests" */;
+			buildPhases = (
+				E4B812EFC825A444BF431859D1016791 /* Headers */,
+				02BF1429D43EA81A214DADADD611AF8F /* Sources */,
+				D2341E2609B4A677E9DBA13979A90C50 /* Frameworks */,
+				3B920A2653CFE05A3B854DE93487AB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609FD67081DA89DEE01489AD2548C661 /* PBXTargetDependency */,
+			);
+			name = "Pods-Coronavoider-CoronavoiderUITests";
+			productName = "Pods-Coronavoider-CoronavoiderUITests";
+			productReference = 9D6CE06E021E6528F8A05645F6FA8DF9 /* Pods_Coronavoider_CoronavoiderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F045E5823839F14B553CECD416E7041 /* Pods-CoronavoiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF8895C71B0FCFBAE7D714E7E3FB645 /* Build configuration list for PBXNativeTarget "Pods-CoronavoiderTests" */;
+			buildPhases = (
+				14EDAB3B5F744CB8658997F35BDA9511 /* Headers */,
+				AFD4DF1DA30F6C294655CAF9862A4AE9 /* Sources */,
+				98D2D9B7ABC4D7839C6B6CA289B1A82D /* Frameworks */,
+				6999283AE22D39D80E081CFBB10454E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29EFCE7D4D52A1140AED3361D67B1DAE /* PBXTargetDependency */,
+			);
+			name = "Pods-CoronavoiderTests";
+			productName = "Pods-CoronavoiderTests";
+			productReference = 97AAE3BDF85B56C60895D4B2DC489B67 /* Pods_CoronavoiderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6401258C324723BF70EAEF2C6B0B59C9 /* ILPDFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464B04242B1BC9E889989C51EE11A009 /* Build configuration list for PBXNativeTarget "ILPDFKit" */;
+			buildPhases = (
+				6A609517AD0D2A02AE0B19A4A83FB619 /* Headers */,
+				F809CE46D33AB7085AA0AAAC0E849C88 /* Sources */,
+				C331C69E1596A5E593BF1A9FDF0ABA86 /* Frameworks */,
+				CFAAD71D7ACE79EC130DD5A98C2A1821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILPDFKit;
+			productName = ILPDFKit;
+			productReference = DBE5187D86C1E5E00A6EF941320486A1 /* ILPDFKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9105E5C2EA698E587185535F18C6782 /* Pods-Coronavoider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95535651B275DA2FF55ACAF948C02C0 /* Build configuration list for PBXNativeTarget "Pods-Coronavoider" */;
+			buildPhases = (
+				8B019B8B0DFADA719BA0F770B773B6E8 /* Headers */,
+				1D94469E5DAA531989E3E7C0A779F257 /* Sources */,
+				826E3E79B776691762A4EC226F6130D6 /* Frameworks */,
+				B3642CA9A916D1A65763C525B935D9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F0F0B634B309C36EA2BD25427892A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Coronavoider";
+			productName = "Pods-Coronavoider";
+			productReference = 65144B3BDC69E88A473BB8789FA28182 /* Pods_Coronavoider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0D81B96D2D975DCEBAD937F6E887F601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6401258C324723BF70EAEF2C6B0B59C9 /* ILPDFKit */,
+				F9105E5C2EA698E587185535F18C6782 /* Pods-Coronavoider */,
+				2B9E54F39A27C6952AB0D49DE73E70EA /* Pods-Coronavoider-CoronavoiderUITests */,
+				4F045E5823839F14B553CECD416E7041 /* Pods-CoronavoiderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B920A2653CFE05A3B854DE93487AB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6999283AE22D39D80E081CFBB10454E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3642CA9A916D1A65763C525B935D9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAAD71D7ACE79EC130DD5A98C2A1821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02BF1429D43EA81A214DADADD611AF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AA98431BDB5D77081E04F1848387E5 /* Pods-Coronavoider-CoronavoiderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D94469E5DAA531989E3E7C0A779F257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D840D453FC72618C55361EB1AAA1A1 /* Pods-Coronavoider-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD4DF1DA30F6C294655CAF9862A4AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B18AD7758161B7C24C34BEABFA3B4AB /* Pods-CoronavoiderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F809CE46D33AB7085AA0AAAC0E849C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F12194316F6BEFD04FA469850850FE /* ILPDFArray.m in Sources */,
+				1EF88429A704A59615FC3E2AAE21BAA8 /* ILPDFDictionary.m in Sources */,
+				98498B3BD1746E77F4CB3CDED2F421BA /* ILPDFDocument.m in Sources */,
+				9393D3ADA4E714A6DDE9B2E19518FFA7 /* ILPDFForm.m in Sources */,
+				9C4147D9AD7A6F45B32EBEA0307C468D /* ILPDFFormButtonField.m in Sources */,
+				A887EEF4CB8BF6DF2BA671CFFAAC42E0 /* ILPDFFormChoiceField.m in Sources */,
+				F52F1AC315E3A4D7F22578C9B0CFA16D /* ILPDFFormContainer.m in Sources */,
+				513812E37DC5EA0E8493742B3FE068ED /* ILPDFFormSignatureField.m in Sources */,
+				2590B834A50CF386871FC05991F77EE4 /* ILPDFFormTextField.m in Sources */,
+				9BFE393845D8505EA7A37FB4A812CB32 /* ILPDFKit-dummy.m in Sources */,
+				F05CAA11B2F5E37ACC39623DD3681AC9 /* ILPDFKit.swift in Sources */,
+				FD6232A6FCB4F940525405F19FD6338F /* ILPDFName.m in Sources */,
+				2CA0F028ECA47B7BCF35414F2D331C4B /* ILPDFNull.m in Sources */,
+				FA8804BB42A515456483B173B04FB132 /* ILPDFNumber.m in Sources */,
+				8B0F52F43C04A16D7772A73F5CFD13C0 /* ILPDFObjectParser.m in Sources */,
+				B8A1F88AD2F0EBCDC8A65F97A87EFF86 /* ILPDFPage.m in Sources */,
+				9FC2A4C10275D59B5B26E24B13555E5A /* ILPDFSerializer.m in Sources */,
+				D940E39F4F63DABCF62A2E8CF425AAF9 /* ILPDFStream.m in Sources */,
+				BA3F59D496B3B36C0FACB5658360D236 /* ILPDFString.m in Sources */,
+				C15B498B31785B93D30736CBD9F751C8 /* ILPDFUtility.m in Sources */,
+				D6A80D06D8FAD57BC43FFA6E26148C56 /* ILPDFView.m in Sources */,
+				DE99DC38DCAE0EA0481EBF7E209433DE /* ILPDFViewController.m in Sources */,
+				E4BBEE793D6532325E2FA23A14B4C9FB /* ILPDFWidgetAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29EFCE7D4D52A1140AED3361D67B1DAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Coronavoider";
+			target = F9105E5C2EA698E587185535F18C6782 /* Pods-Coronavoider */;
+			targetProxy = C4D6949D52D9AEE00A3A48517B5CED36 /* PBXContainerItemProxy */;
+		};
+		609FD67081DA89DEE01489AD2548C661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ILPDFKit;
+			target = 6401258C324723BF70EAEF2C6B0B59C9 /* ILPDFKit */;
+			targetProxy = 225F08F41DFDE7F290D3B1149E9F37A2 /* PBXContainerItemProxy */;
+		};
+		86F0F0B634B309C36EA2BD25427892A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ILPDFKit;
+			target = 6401258C324723BF70EAEF2C6B0B59C9 /* ILPDFKit */;
+			targetProxy = 2A7BB5A28BBE3D6B3F822BEEA4B98069 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001632C4A0F1D874D068A0D5599D3E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43864F4AF3DF74427C865EBCCA4AD743 /* Pods-CoronavoiderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoronavoiderTests/Pods-CoronavoiderTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoronavoiderTests/Pods-CoronavoiderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		053CCD260074C898BE35C030A9563C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CA1DCE3ED38493B280C28E367D20E2 /* Pods-CoronavoiderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoronavoiderTests/Pods-CoronavoiderTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoronavoiderTests/Pods-CoronavoiderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		88AACCB77A851309E5B28B9CCA28A04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE92DBC984657DDA7F53AF65AEC77A99 /* Pods-Coronavoider.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coronavoider/Pods-Coronavoider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coronavoider/Pods-Coronavoider.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AE878E15F65D967C78C259B8A0DCFC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2191B874B6BD422406CDC172A15F0582 /* ILPDFKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ILPDFKit/ILPDFKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ILPDFKit/ILPDFKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ILPDFKit/ILPDFKit.modulemap";
+				PRODUCT_MODULE_NAME = ILPDFKit;
+				PRODUCT_NAME = ILPDFKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD8BD0832F7F26A5EF8D1CB1F553B366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1669B1A7E9B7BFD4D93D59FC1DBB50C8 /* Pods-Coronavoider.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coronavoider/Pods-Coronavoider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coronavoider/Pods-Coronavoider.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDA60E4CCBD0CE133305A8C2EECC9CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466D280ACC9F673FCE4B1F3606D050D9 /* Pods-Coronavoider-CoronavoiderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coronavoider-CoronavoiderUITests/Pods-Coronavoider-CoronavoiderUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coronavoider-CoronavoiderUITests/Pods-Coronavoider-CoronavoiderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF9FCB9DED7DFD90A26AC2FC53EA6491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA63EB0E6ECDFCBC604430819EF5741 /* Pods-Coronavoider-CoronavoiderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coronavoider-CoronavoiderUITests/Pods-Coronavoider-CoronavoiderUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coronavoider-CoronavoiderUITests/Pods-Coronavoider-CoronavoiderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCAA41185B6A83B48DFAD5ADD6ABB804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC75C689E48975581EBA6EAEE342DAC8 /* ILPDFKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ILPDFKit/ILPDFKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ILPDFKit/ILPDFKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ILPDFKit/ILPDFKit.modulemap";
+				PRODUCT_MODULE_NAME = ILPDFKit;
+				PRODUCT_NAME = ILPDFKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464B04242B1BC9E889989C51EE11A009 /* Build configuration list for PBXNativeTarget "ILPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE878E15F65D967C78C259B8A0DCFC30 /* Debug */,
+				FCAA41185B6A83B48DFAD5ADD6ABB804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */,
+				593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF8895C71B0FCFBAE7D714E7E3FB645 /* Build configuration list for PBXNativeTarget "Pods-CoronavoiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001632C4A0F1D874D068A0D5599D3E40 /* Debug */,
+				053CCD260074C898BE35C030A9563C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95535651B275DA2FF55ACAF948C02C0 /* Build configuration list for PBXNativeTarget "Pods-Coronavoider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8BD0832F7F26A5EF8D1CB1F553B366 /* Debug */,
+				88AACCB77A851309E5B28B9CCA28A04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C4BB04DEFC4FEB93E7D06A6598BFA9 /* Build configuration list for PBXNativeTarget "Pods-Coronavoider-CoronavoiderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9FCB9DED7DFD90A26AC2FC53EA6491 /* Debug */,
+				CDA60E4CCBD0CE133305A8C2EECC9CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
